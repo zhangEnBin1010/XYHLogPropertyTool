@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19F7DD2C1A0D3605503AF833 /* libPods-XYHLogPropertyTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64036D0075E6EFEDADB3D60B /* libPods-XYHLogPropertyTool.a */; };
 		1E5B5EC81F5CF90D0092CC8F /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B5EC71F5CF90D0092CC8F /* ResponseModel.m */; };
+		1E5B5EFA1F5D58640092CC8F /* 屏幕快照 2017-09-04 下午5.42.10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5B5EF91F5D58640092CC8F /* 屏幕快照 2017-09-04 下午5.42.10.png */; };
 		1EBD6B461F594E1100B19AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD6B451F594E1100B19AE5 /* main.m */; };
 		1EBD6B491F594E1100B19AE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD6B481F594E1100B19AE5 /* AppDelegate.m */; };
 		1EBD6B4C1F594E1100B19AE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD6B4B1F594E1100B19AE5 /* ViewController.m */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		1E5B5EC61F5CF90D0092CC8F /* ResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseModel.h; sourceTree = "<group>"; };
 		1E5B5EC71F5CF90D0092CC8F /* ResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseModel.m; sourceTree = "<group>"; };
+		1E5B5EF91F5D58640092CC8F /* 屏幕快照 2017-09-04 下午5.42.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-09-04 下午5.42.10.png"; sourceTree = "<group>"; };
 		1EBD6B411F594E1100B19AE5 /* XYHLogPropertyTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYHLogPropertyTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBD6B451F594E1100B19AE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EBD6B471F594E1100B19AE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		1EBD6B431F594E1100B19AE5 /* XYHLogPropertyTool */ = {
 			isa = PBXGroup;
 			children = (
+				1E5B5EF91F5D58640092CC8F /* 屏幕快照 2017-09-04 下午5.42.10.png */,
 				1EBD6B841F5975B000B19AE5 /* HZConfigFile.json */,
 				1EBD6B801F5972A900B19AE5 /* XYHLogPropertyTool */,
 				1EBD6B471F594E1100B19AE5 /* AppDelegate.h */,
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EBD6B541F594E1100B19AE5 /* LaunchScreen.storyboard in Resources */,
+				1E5B5EFA1F5D58640092CC8F /* 屏幕快照 2017-09-04 下午5.42.10.png in Resources */,
 				1EBD6B851F5975B000B19AE5 /* HZConfigFile.json in Resources */,
 				1EBD6B511F594E1100B19AE5 /* Assets.xcassets in Resources */,
 				1EBD6B4F1F594E1100B19AE5 /* Main.storyboard in Resources */,
