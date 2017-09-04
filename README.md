@@ -5,6 +5,6 @@
 
 生成之后控制台会打印出生成文件的路径，复制->control+g->粘贴->enter,这时就会看到已经生成好的文件，拖入项目就可以直接使用.
 
-XYHLogPropertyTool/XYHLogPropertyTool/XYHLogPropertyTool/屏幕快照 2017-09-04 下午5.42.10.png
+![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
 
 生成的文件不需要删除，在真机跑的时候不会生成该文件。
