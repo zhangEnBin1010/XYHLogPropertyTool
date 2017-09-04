@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": 114.16,
+        "lat": 22.28
+    },
+    "weather": [
+                {
+                "id": 520,
+                "main": "Rain",
+                "description": "lightintensityshowerrain",
+                "icon": "09d"
+                }
+                ],
+    "base": "stations",
+    "main": {
+        "temp": 300.15,
+        "pressure": 1007,
+        "humidity": 83,
+        "temp_min": 300.15,
+        "temp_max": 300.15
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 10.3,
+        "deg": 230
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1504492200,
+    "sys": {
+        "type": 1,
+        "id": 7888,
+        "message": 0.0072,
+        "country": "HK",
+        "sunrise": 1504476421,
+        "sunset": 1504521447
+    },
+    "id": 8223932,
+    "name": "Central",
+    "cod": 200
+}

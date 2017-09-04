@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19F7DD2C1A0D3605503AF833 /* libPods-XYHLogPropertyTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64036D0075E6EFEDADB3D60B /* libPods-XYHLogPropertyTool.a */; };
+		1E5B5EC81F5CF90D0092CC8F /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B5EC71F5CF90D0092CC8F /* ResponseModel.m */; };
+		1EBD6B461F594E1100B19AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD6B451F594E1100B19AE5 /* main.m */; };
+		1EBD6B491F594E1100B19AE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD6B481F594E1100B19AE5 /* AppDelegate.m */; };
+		1EBD6B4C1F594E1100B19AE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD6B4B1F594E1100B19AE5 /* ViewController.m */; };
+		1EBD6B4F1F594E1100B19AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBD6B4D1F594E1100B19AE5 /* Main.storyboard */; };
+		1EBD6B511F594E1100B19AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBD6B501F594E1100B19AE5 /* Assets.xcassets */; };
+		1EBD6B541F594E1100B19AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBD6B521F594E1100B19AE5 /* LaunchScreen.storyboard */; };
+		1EBD6B5F1F594E1100B19AE5 /* XYHLogPropertyToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD6B5E1F594E1100B19AE5 /* XYHLogPropertyToolTests.m */; };
+		1EBD6B6A1F594E1100B19AE5 /* XYHLogPropertyToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD6B691F594E1100B19AE5 /* XYHLogPropertyToolUITests.m */; };
+		1EBD6B831F5972A900B19AE5 /* XYHLogPropertyTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD6B821F5972A900B19AE5 /* XYHLogPropertyTool.m */; };
+		1EBD6B851F5975B000B19AE5 /* HZConfigFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EBD6B841F5975B000B19AE5 /* HZConfigFile.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EBD6B5B1F594E1100B19AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBD6B391F594E1100B19AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBD6B401F594E1100B19AE5;
+			remoteInfo = XYHLogPropertyTool;
+		};
+		1EBD6B661F594E1100B19AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBD6B391F594E1100B19AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBD6B401F594E1100B19AE5;
+			remoteInfo = XYHLogPropertyTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E5B5EC61F5CF90D0092CC8F /* ResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseModel.h; sourceTree = "<group>"; };
+		1E5B5EC71F5CF90D0092CC8F /* ResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseModel.m; sourceTree = "<group>"; };
+		1EBD6B411F594E1100B19AE5 /* XYHLogPropertyTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYHLogPropertyTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBD6B451F594E1100B19AE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EBD6B471F594E1100B19AE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EBD6B481F594E1100B19AE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EBD6B4A1F594E1100B19AE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EBD6B4B1F594E1100B19AE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EBD6B4E1F594E1100B19AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EBD6B501F594E1100B19AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EBD6B531F594E1100B19AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EBD6B551F594E1100B19AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBD6B5A1F594E1100B19AE5 /* XYHLogPropertyToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYHLogPropertyToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBD6B5E1F594E1100B19AE5 /* XYHLogPropertyToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYHLogPropertyToolTests.m; sourceTree = "<group>"; };
+		1EBD6B601F594E1100B19AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBD6B651F594E1100B19AE5 /* XYHLogPropertyToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYHLogPropertyToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBD6B691F594E1100B19AE5 /* XYHLogPropertyToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYHLogPropertyToolUITests.m; sourceTree = "<group>"; };
+		1EBD6B6B1F594E1100B19AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBD6B811F5972A900B19AE5 /* XYHLogPropertyTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYHLogPropertyTool.h; sourceTree = "<group>"; };
+		1EBD6B821F5972A900B19AE5 /* XYHLogPropertyTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYHLogPropertyTool.m; sourceTree = "<group>"; };
+		1EBD6B841F5975B000B19AE5 /* HZConfigFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HZConfigFile.json; sourceTree = "<group>"; };
+		64036D0075E6EFEDADB3D60B /* libPods-XYHLogPropertyTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYHLogPropertyTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA81FC2D5CC9017C8878E6D7 /* Pods-XYHLogPropertyTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHLogPropertyTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYHLogPropertyTool/Pods-XYHLogPropertyTool.release.xcconfig"; sourceTree = "<group>"; };
+		D3CD9D196A47A745664DE58B /* Pods-XYHLogPropertyTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHLogPropertyTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYHLogPropertyTool/Pods-XYHLogPropertyTool.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBD6B3E1F594E1100B19AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F7DD2C1A0D3605503AF833 /* libPods-XYHLogPropertyTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBD6B571F594E1100B19AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBD6B621F594E1100B19AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171F8B29ECE8F29B98DA7BF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64036D0075E6EFEDADB3D60B /* libPods-XYHLogPropertyTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EBD6B381F594E1100B19AE5 = {
+			isa = PBXGroup;
+			children = (
+				1EBD6B431F594E1100B19AE5 /* XYHLogPropertyTool */,
+				1EBD6B5D1F594E1100B19AE5 /* XYHLogPropertyToolTests */,
+				1EBD6B681F594E1100B19AE5 /* XYHLogPropertyToolUITests */,
+				1EBD6B421F594E1100B19AE5 /* Products */,
+				B291A7BA6F383F5E34D45A49 /* Pods */,
+				171F8B29ECE8F29B98DA7BF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBD6B421F594E1100B19AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBD6B411F594E1100B19AE5 /* XYHLogPropertyTool.app */,
+				1EBD6B5A1F594E1100B19AE5 /* XYHLogPropertyToolTests.xctest */,
+				1EBD6B651F594E1100B19AE5 /* XYHLogPropertyToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBD6B431F594E1100B19AE5 /* XYHLogPropertyTool */ = {
+			isa = PBXGroup;
+			children = (
+				1EBD6B841F5975B000B19AE5 /* HZConfigFile.json */,
+				1EBD6B801F5972A900B19AE5 /* XYHLogPropertyTool */,
+				1EBD6B471F594E1100B19AE5 /* AppDelegate.h */,
+				1EBD6B481F594E1100B19AE5 /* AppDelegate.m */,
+				1EBD6B4A1F594E1100B19AE5 /* ViewController.h */,
+				1EBD6B4B1F594E1100B19AE5 /* ViewController.m */,
+				1E5B5EC61F5CF90D0092CC8F /* ResponseModel.h */,
+				1E5B5EC71F5CF90D0092CC8F /* ResponseModel.m */,
+				1EBD6B4D1F594E1100B19AE5 /* Main.storyboard */,
+				1EBD6B501F594E1100B19AE5 /* Assets.xcassets */,
+				1EBD6B521F594E1100B19AE5 /* LaunchScreen.storyboard */,
+				1EBD6B551F594E1100B19AE5 /* Info.plist */,
+				1EBD6B441F594E1100B19AE5 /* Supporting Files */,
+			);
+			path = XYHLogPropertyTool;
+			sourceTree = "<group>";
+		};
+		1EBD6B441F594E1100B19AE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EBD6B451F594E1100B19AE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EBD6B5D1F594E1100B19AE5 /* XYHLogPropertyToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBD6B5E1F594E1100B19AE5 /* XYHLogPropertyToolTests.m */,
+				1EBD6B601F594E1100B19AE5 /* Info.plist */,
+			);
+			path = XYHLogPropertyToolTests;
+			sourceTree = "<group>";
+		};
+		1EBD6B681F594E1100B19AE5 /* XYHLogPropertyToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBD6B691F594E1100B19AE5 /* XYHLogPropertyToolUITests.m */,
+				1EBD6B6B1F594E1100B19AE5 /* Info.plist */,
+			);
+			path = XYHLogPropertyToolUITests;
+			sourceTree = "<group>";
+		};
+		1EBD6B801F5972A900B19AE5 /* XYHLogPropertyTool */ = {
+			isa = PBXGroup;
+			children = (
+				1EBD6B811F5972A900B19AE5 /* XYHLogPropertyTool.h */,
+				1EBD6B821F5972A900B19AE5 /* XYHLogPropertyTool.m */,
+			);
+			path = XYHLogPropertyTool;
+			sourceTree = "<group>";
+		};
+		B291A7BA6F383F5E34D45A49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD9D196A47A745664DE58B /* Pods-XYHLogPropertyTool.debug.xcconfig */,
+				CA81FC2D5CC9017C8878E6D7 /* Pods-XYHLogPropertyTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBD6B401F594E1100B19AE5 /* XYHLogPropertyTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBD6B6E1F594E1100B19AE5 /* Build configuration list for PBXNativeTarget "XYHLogPropertyTool" */;
+			buildPhases = (
+				1B8BE45C77EA7BF35EEB228E /* [CP] Check Pods Manifest.lock */,
+				1EBD6B3D1F594E1100B19AE5 /* Sources */,
+				1EBD6B3E1F594E1100B19AE5 /* Frameworks */,
+				1EBD6B3F1F594E1100B19AE5 /* Resources */,
+				16A4C1BBB61B52A896A0716D /* [CP] Embed Pods Frameworks */,
+				C4F02ECE254C48616945271E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYHLogPropertyTool;
+			productName = XYHLogPropertyTool;
+			productReference = 1EBD6B411F594E1100B19AE5 /* XYHLogPropertyTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EBD6B591F594E1100B19AE5 /* XYHLogPropertyToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBD6B711F594E1100B19AE5 /* Build configuration list for PBXNativeTarget "XYHLogPropertyToolTests" */;
+			buildPhases = (
+				1EBD6B561F594E1100B19AE5 /* Sources */,
+				1EBD6B571F594E1100B19AE5 /* Frameworks */,
+				1EBD6B581F594E1100B19AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBD6B5C1F594E1100B19AE5 /* PBXTargetDependency */,
+			);
+			name = XYHLogPropertyToolTests;
+			productName = XYHLogPropertyToolTests;
+			productReference = 1EBD6B5A1F594E1100B19AE5 /* XYHLogPropertyToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EBD6B641F594E1100B19AE5 /* XYHLogPropertyToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBD6B741F594E1100B19AE5 /* Build configuration list for PBXNativeTarget "XYHLogPropertyToolUITests" */;
+			buildPhases = (
+				1EBD6B611F594E1100B19AE5 /* Sources */,
+				1EBD6B621F594E1100B19AE5 /* Frameworks */,
+				1EBD6B631F594E1100B19AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBD6B671F594E1100B19AE5 /* PBXTargetDependency */,
+			);
+			name = XYHLogPropertyToolUITests;
+			productName = XYHLogPropertyToolUITests;
+			productReference = 1EBD6B651F594E1100B19AE5 /* XYHLogPropertyToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBD6B391F594E1100B19AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "zeb-apple";
+				TargetAttributes = {
+					1EBD6B401F594E1100B19AE5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					1EBD6B591F594E1100B19AE5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1EBD6B401F594E1100B19AE5;
+					};
+					1EBD6B641F594E1100B19AE5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1EBD6B401F594E1100B19AE5;
+					};
+				};
+			};
+			buildConfigurationList = 1EBD6B3C1F594E1100B19AE5 /* Build configuration list for PBXProject "XYHLogPropertyTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EBD6B381F594E1100B19AE5;
+			productRefGroup = 1EBD6B421F594E1100B19AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBD6B401F594E1100B19AE5 /* XYHLogPropertyTool */,
+				1EBD6B591F594E1100B19AE5 /* XYHLogPropertyToolTests */,
+				1EBD6B641F594E1100B19AE5 /* XYHLogPropertyToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBD6B3F1F594E1100B19AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBD6B541F594E1100B19AE5 /* LaunchScreen.storyboard in Resources */,
+				1EBD6B851F5975B000B19AE5 /* HZConfigFile.json in Resources */,
+				1EBD6B511F594E1100B19AE5 /* Assets.xcassets in Resources */,
+				1EBD6B4F1F594E1100B19AE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBD6B581F594E1100B19AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBD6B631F594E1100B19AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16A4C1BBB61B52A896A0716D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYHLogPropertyTool/Pods-XYHLogPropertyTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B8BE45C77EA7BF35EEB228E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F02ECE254C48616945271E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYHLogPropertyTool/Pods-XYHLogPropertyTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBD6B3D1F594E1100B19AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBD6B4C1F594E1100B19AE5 /* ViewController.m in Sources */,
+				1EBD6B831F5972A900B19AE5 /* XYHLogPropertyTool.m in Sources */,
+				1E5B5EC81F5CF90D0092CC8F /* ResponseModel.m in Sources */,
+				1EBD6B491F594E1100B19AE5 /* AppDelegate.m in Sources */,
+				1EBD6B461F594E1100B19AE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBD6B561F594E1100B19AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBD6B5F1F594E1100B19AE5 /* XYHLogPropertyToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBD6B611F594E1100B19AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBD6B6A1F594E1100B19AE5 /* XYHLogPropertyToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EBD6B5C1F594E1100B19AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBD6B401F594E1100B19AE5 /* XYHLogPropertyTool */;
+			targetProxy = 1EBD6B5B1F594E1100B19AE5 /* PBXContainerItemProxy */;
+		};
+		1EBD6B671F594E1100B19AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBD6B401F594E1100B19AE5 /* XYHLogPropertyTool */;
+			targetProxy = 1EBD6B661F594E1100B19AE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EBD6B4D1F594E1100B19AE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBD6B4E1F594E1100B19AE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EBD6B521F594E1100B19AE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBD6B531F594E1100B19AE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EBD6B6C1F594E1100B19AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1EBD6B6D1F594E1100B19AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBD6B6F1F594E1100B19AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CD9D196A47A745664DE58B /* Pods-XYHLogPropertyTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYHLogPropertyTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.XYHLogPropertyTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EBD6B701F594E1100B19AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA81FC2D5CC9017C8878E6D7 /* Pods-XYHLogPropertyTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYHLogPropertyTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.XYHLogPropertyTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EBD6B721F594E1100B19AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYHLogPropertyToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.XYHLogPropertyToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYHLogPropertyTool.app/XYHLogPropertyTool";
+			};
+			name = Debug;
+		};
+		1EBD6B731F594E1100B19AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYHLogPropertyToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.XYHLogPropertyToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYHLogPropertyTool.app/XYHLogPropertyTool";
+			};
+			name = Release;
+		};
+		1EBD6B751F594E1100B19AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYHLogPropertyToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.XYHLogPropertyToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYHLogPropertyTool;
+			};
+			name = Debug;
+		};
+		1EBD6B761F594E1100B19AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XYHLogPropertyToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.XYHLogPropertyToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XYHLogPropertyTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBD6B3C1F594E1100B19AE5 /* Build configuration list for PBXProject "XYHLogPropertyTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBD6B6C1F594E1100B19AE5 /* Debug */,
+				1EBD6B6D1F594E1100B19AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBD6B6E1F594E1100B19AE5 /* Build configuration list for PBXNativeTarget "XYHLogPropertyTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBD6B6F1F594E1100B19AE5 /* Debug */,
+				1EBD6B701F594E1100B19AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBD6B711F594E1100B19AE5 /* Build configuration list for PBXNativeTarget "XYHLogPropertyToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBD6B721F594E1100B19AE5 /* Debug */,
+				1EBD6B731F594E1100B19AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBD6B741F594E1100B19AE5 /* Build configuration list for PBXNativeTarget "XYHLogPropertyToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBD6B751F594E1100B19AE5 /* Debug */,
+				1EBD6B761F594E1100B19AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EBD6B391F594E1100B19AE5 /* Project object */;
+}
